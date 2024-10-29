@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.header {
+    height: 100px;
+    background-color: rgb(255, 237, 184);
+}
+
+div.main {
+    width: 1000px;
+    height: 600px;
+    background-color: aquamarine;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 1000px;
+    height: 600px;
+}
+
+.left, .right {
+    background-color: black;
+    color: aliceblue;
+    opacity: 60%;
+    position: absolute;
+    top: 35%;
+    height: 100px;
+    width: 50px;
+    margin: 10px;
+    font-size: large;
+    font-weight: 400;
+    border: none;
+}
+
+
+button.left {
+    left: 0;
+}
+
+button.right {
+    right: 0;
+}
